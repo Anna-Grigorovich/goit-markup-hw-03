@@ -48,6 +48,10 @@ h6,
 p {
   margin: 0;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* хедер */
 .header a {
   text-decoration: none;
@@ -61,7 +65,7 @@ p {
   align-items: center;
 }
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -159,7 +163,6 @@ p {
   color: var(--color-black);
 
   margin-bottom: 10px;
-  padding-top: 94px;
 }
 
 .features-text {
@@ -168,8 +171,6 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--color-gray);
-
-  padding-bottom: 94px;
 }
 
 /* секция чем мы занимаемся */
@@ -186,7 +187,7 @@ p {
 }
 .about-list {
   margin-top: 50px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
   display: flex;
   justify-content: space-evenly;
   gap: 30px;
@@ -196,13 +197,13 @@ p {
 .our-team {
   background: var(--color-backgr-gray);
 }
-.team-container {
+/* .team-container {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.title-team {
+} */
+/* .title-team {
   padding-top: 94px;
-}
+} */
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -301,7 +302,7 @@ p {
   justify-content: center;
   gap: 8px;
 
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 50px;
 }
 .btn-portfolio:hover,
@@ -314,6 +315,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 30px;
+  /* padding-bottom: 94px; */
 }
 /* .works-item {
   box-sizing: border-box;
@@ -330,6 +332,8 @@ p {
   line-height: 2em;
   letter-spacing: 0.06em;
   color: var(--color-black);
+  margin-bottom: 4px;
+  padding: 20px 24px;
 }
 .portfolio-text {
   font-size: 16px;
@@ -337,4 +341,8 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--color-gray);
+  padding: 0px 24px 20px 24px;
+}
+.works-item img {
+  display: block;
 }
