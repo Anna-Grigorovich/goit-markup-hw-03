@@ -17,7 +17,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   /* padding-top: 94px;
-  padding-bottom: 94px; */
+    padding-bottom: 94px; */
   margin: 0 auto;
   /* outline: 2px solid red; */
 }
@@ -59,6 +59,8 @@ p {
 .header-nav {
   display: flex;
   gap: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-container {
   display: flex;
@@ -96,6 +98,8 @@ p {
   display: flex;
   margin-left: 344px;
   gap: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-nav-link {
@@ -174,6 +178,9 @@ p {
 }
 
 /* секция чем мы занимаемся */
+.about-us {
+  padding-top: 0px;
+}
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -197,13 +204,12 @@ p {
 .our-team {
   background: var(--color-backgr-gray);
 }
-/* .team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
-/* .title-team {
-  padding-top: 94px;
-} */
+.team-wrap {
+  padding: 30px 0px;
+}
+.team-item img {
+  display: block;
+}
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -223,19 +229,16 @@ p {
 
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 30px;
+
   margin-bottom: 10px;
 }
 .our-team-text {
   font-size: 16px;
   line-height: 1.1875em;
-
   text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--color-gray);
-
-  padding-bottom: 30px;
 }
 /* Подвал сайта */
 .footer a {
@@ -244,6 +247,7 @@ p {
 
 .footer {
   background: var(--color-backgr-dark);
+  padding: 60px 0px 60px;
 }
 .logo-footer {
   display: inline-block;
@@ -256,7 +260,6 @@ p {
 
   color: #ffffff;
 
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 .adress {
@@ -278,9 +281,7 @@ p {
 .footer-item:first-child {
   margin-bottom: 9px;
 }
-.footer-list {
-  padding-bottom: 60px;
-}
+
 /* СТИЛИ К СТРАНИЦЕ ПОРТФОЛИО */
 .portfolio {
 }
@@ -296,6 +297,8 @@ p {
   border-radius: 4px;
   border-color: transparent;
   cursor: pointer;
+
+  padding: 6px 22px;
 }
 .list-btn {
   display: flex;
@@ -318,13 +321,14 @@ p {
   /* padding-bottom: 94px; */
 }
 /* .works-item {
-  box-sizing: border-box;
-  border: 1px solid #eeeeee;
-} */
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+  } */
 .work-border {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -333,7 +337,6 @@ p {
   letter-spacing: 0.06em;
   color: var(--color-black);
   margin-bottom: 4px;
-  padding: 2opx 24px 0px 24px;
 }
 .portfolio-text {
   font-size: 16px;
@@ -341,7 +344,6 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--color-gray);
-  padding: 0px 24px 20px 24px;
 }
 .works-item img {
   display: block;
